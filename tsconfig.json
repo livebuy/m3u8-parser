@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "preserveConstEnums": true,
+    "outDir": "./dist",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "declaration": true,
+    "inlineSources": false,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "noErrorTruncation": true,
+    "resolveJsonModule": true,
+    "rootDirs": ["./src"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["ESNext", "DOM"]
+  },
+  "include": [
+    "src/**/*",
+    "test/**/*"
+  ],
+  "exclude": ["/dist/", "/node_modules/"]
+}
